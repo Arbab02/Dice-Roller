@@ -1,0 +1,63 @@
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    height: 30rem;
+    width: 30rem;
+    margin: 0px 0px 0px 24rem;
+}
+
+
+#dice{
+    width: 10rem;
+    display: block;
+    position: absolute;
+}
+
+p{
+    position: absolute;  
+    margin: -14rem 0px 0px 0rem;
+    font-size: 2.2rem;
+    z-index: 2;
+}
+button{
+    position: absolute;
+    margin: 17rem 0px 0px 0rem;
+    font-size: 2rem;
+    background-color: rgb(60, 14, 14);
+    color:white;
+    border: none;
+    border-radius: 2px;
+    padding: 7px 35px 7px 35px;
+}
+
+@media(max-width:1000px){
+    .box{
+        margin: 3rem 0px 0px 0px;
+        width: 100%;
+        height: 5rem;
+        border: none;
+        flex-wrap: wrap;
+    }
+
+    p{
+        font-size: 1rem;
+        margin: 8rem 0px 0px 50px;
+    }
+    #dice{
+        width: 5rem;
+        margin: 0rem 0px 0px 50px;
+    }
+    
+    button{
+        position: absolute;
+        margin: 12rem 0px 0px 3rem;
+        font-size: 1rem;
+        background-color: rgb(60, 14, 14);
+        color:white;
+        border: none;
+        border-radius: 2px;
+        padding: 3px 15px 3px 15px;
+    }
+}
