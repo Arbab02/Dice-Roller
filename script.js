@@ -15,6 +15,10 @@ function roll(){
 
         p.innerHTML = 'Score: 3'
     }
+    else if(randomDice == 3){
+
+        p.innerHTML = 'Score: 4'
+    }
     else if(randomDice == 4){
 
         p.innerHTML = 'Score: 5'
